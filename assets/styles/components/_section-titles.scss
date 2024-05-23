@@ -57,6 +57,12 @@ $chapter-number-font-size: (
 $chapter-number-align: left !default;
 $chapter-number-after-content: '\00A0' !default;
 
+$chapter-number-margin-bottom: (
+  epub: 1em,
+  prince: 0.5cm,
+  web: 0.25em // Changed from 1em default in Buckram
+) !default;
+
 $chapter-number-border-bottom-style: solid !default;
 $chapter-number-border-bottom-width: (epub: 1px, prince: 1px, web: 1px) !default;
 
@@ -65,4 +71,3 @@ $chapter-number-border-bottom-width: (epub: 1px, prince: 1px, web: 1px) !default
 
 // Add custom SCSS below these imports and includes.
 @import 'components/section-titles';
-
