@@ -10,3 +10,7 @@ $type: 'prince';
 @import '../components/section-titles';
 @import '../components/structure';
 @import '../components/toc';
+
+p+p:has(img.alignnone) {
+    text-indent: 0;
+}
