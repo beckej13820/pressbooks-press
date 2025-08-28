@@ -66,3 +66,6 @@ $chapter-number-border-bottom-width: (epub: 1px, prince: 1px, web: 1px) !default
 // Add custom SCSS below these imports and includes.
 @import 'components/section-titles';
 
+div.chapter-title-wrap > p.chapter-subtitle, div.chapter-title-wrap > p.chapter-author {
+	margin-outside: 0;
+}
